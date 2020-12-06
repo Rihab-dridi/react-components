@@ -1,0 +1,36 @@
+.NavBar{
+    background: linear-gradient(90deg );
+    height:80px;
+    background-color: rgb(187, 183, 183);
+    color : whitesmoke;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+   margin-right:50px;
+    cursor :pointer;
+
+}
+.Nav-menu{
+    display:flex;
+    justify-content: space-around; 
+    width: 500px;
+    list-style: none;
+    font-weight: bold;  
+}
+.nav-links{
+    padding:0.5rem 1rem;
+    border-radius: 10%;
+}
+
+.nav-links:hover{
+    background-color: rgb(172, 172, 165);
+    color: white
+    
+}
